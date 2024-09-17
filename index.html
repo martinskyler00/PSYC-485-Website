@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Showcase Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>My Portfolio</h1>
+    </div>
+      <button class="menu-toggle">☰</button>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+    <!-- Hero Section with Search Bar -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Explore My UI/UX Projects</h1>
+        <p>Delivering a seamless user experience and modern design.</p>
+          <a href="#" class="btn-primary">View My Work</a>
+      </div>
+
+        <!-- Search Bar -->
+      <div class="search-bar">
+        <form action="#">
+          <div class="search-field">
+            <label for="location">Location</label>
+            <input type="text" id="location" placeholder="Search for a location...">
+          </div>
+          <div class="search-field">
+            <label for="check-in">Check-In</label>
+            <input type="date" id="check-in">
+          </div>
+          <div class="search-field">
+            <label for="check-out">Check-Out</label>
+            <input type="date" id="check-out">
+          </div>
+          <div class="search-field">
+            <label for="guests">Guests</label>
+            <input type="number" id="guests" placeholder="1 guest" min="1">
+          </div>
+          <button type="submit" class="btn-primary search-btn">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project Title 1</h3>
+          <p>Project description showcasing UI/UX design.</p>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project Title 2</h3>
+          <p>Project description showcasing web development.</p>
+        </div>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Project 3">
+          <h3>Project Title 3</h3>
+          <p>Project description showcasing iterative design.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>I am a passionate UI/UX designer and web developer with a focus on delivering clean and functional user experiences.</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
